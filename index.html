@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NovaOS</title>
+    <title>TanOS</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,21 +11,21 @@
 <body>
 
     <main class="welcome-screen">
-
+        <div class="stars"></div>
         <div class="status">
             <span>● SYSTEM ONLINE</span>
-            <span>WEBOS v1.0</span>
+            <span>TanOS v1.0</span>
         </div>
 
         <section class="welcome-card">
 
             <div class="logo">
-                N
+                T
             </div>
 
             <p class="small-text">WELCOME TO</p>
 
-            <h1>Nova<span>OS</span></h1>
+            <h1>Tan<span>OS</span></h1>
 
             <p class="description">
                 A personal web operating system built to explore,
@@ -48,7 +48,7 @@
                     GitHub
                 </a>
 
-                <a href="#" onclick="alert('NovaOS is under construction 🚀')">
+                <a href="#" onclick="alert('TanOS is under construction 🚀')">
                     Projects
                 </a>
 
@@ -58,21 +58,67 @@
             </div>
 
             <button class="enter-button" onclick="enterOS()">
-                Enter NovaOS
+                Enter TanOS
                 <span>→</span>
             </button>
 
         </section>
 
         <p class="footer">
-            Built with HTML • CSS • JavaScript
-        </p>
+            Built with ❤️ by <a href="https://github.com/Tan5dev" target="_blank">Tanmay</a> using HTML • CSS • JavaScript </p>
+
+    </main>
+    <!-- =========================
+     TANOS DESKTOP
+     ========================= -->
+
+<div class="desktop">
+
+    <!-- Top Bar -->
+    <header class="top-bar">
+
+        <div class="top-left">
+            <div class="tanos-logo">T</div>
+            <span class="os-title">TanOS</span>
+        </div>
+
+        <div class="top-right">
+            <span class="system-status">
+                <span class="status-dot"></span>
+                Online
+            </span>
+
+            <span id="timeElement">Loading...</span>
+        </div>
+
+    </header>
+
+
+    <!-- Desktop Content -->
+
+    <main class="desktop-area">
+
+        <div class="desktop-welcome">
+
+            <div class="welcome-icon">
+                ✦
+            </div>
+
+            <h1>Welcome back, Tanmay</h1>
+
+            <p>
+                Your TanOS desktop is ready.
+            </p>
+
+        </div>
 
     </main>
 
+</div>
+
     <script>
         function enterOS() {
-            alert("NovaOS is starting... 🚀");
+            alert("TanOS is starting... 🚀");
         }
     </script>
 
