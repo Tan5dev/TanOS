@@ -1,0 +1,57 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    font-family: 'Outfit', sans-serif;
+}
+
+.terminal_window {
+    display: none;
+
+    resize: both;
+    width: 50vmin;
+    height: 25vmin;
+    min-width: 35vmin;
+    min-height: 25vmin;
+}
+
+.terminal_window_content {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    max-height: 50vmin;
+    overflow: auto;
+    padding: 1vmin;
+}
+
+.terminal_input_line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.input_label {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.terminal_input {
+    flex: 1;
+    background: transparent;
+    outline: none;
+    border: transparent;
+    color: #f9f9fb;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}

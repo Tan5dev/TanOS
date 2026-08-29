@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TanOS</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="welcome-screen">
+        <div class="stars"></div>
+        <div class="status">
+            <span>● SYSTEM ONLINE</span>
+            <span>TanOS v1.0</span>
+        </div>
+
+        <section class="welcome-card">
+
+            <div class="logo">
+                T
+            </div>
+
+            <p class="small-text">WELCOME TO</p>
+
+            <h1>Tan<span>OS</span></h1>
+
+            <p class="description">
+                A personal web operating system built to explore,
+                create, learn and experiment.
+            </p>
+
+            <div class="profile">
+                <div class="avatar">
+                    T
+                </div>
+
+                <div>
+                    <strong>Tanmay</strong>
+                    <p>Developer • Builder • Learner</p>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://github.com/Tan5dev" target="_blank">
+                    GitHub
+                </a>
+
+                <a href="#" onclick="alert('TanOS is under construction 🚀')">
+                    Projects
+                </a>
+
+                <a href="#" onclick="alert('More about Tanmay coming soon!')">
+                    About
+                </a>
+            </div>
+
+            <button class="enter-button" onclick="enterOS()">
+                Enter TanOS
+                <span>→</span>
+            </button>
+
+        </section>
+
+        <p class="footer">
+            Built with ❤️ by <a href="https://github.com/Tan5dev" target="_blank">Tanmay</a> using HTML • CSS • JavaScript </p>
+
+    </main>
+    <!-- =========================
+     TANOS DESKTOP
+     ========================= -->
+
+<div class="desktop">
+
+    <!-- Top Bar -->
+    <header class="top-bar">
+
+        <div class="top-left">
+            <div class="tanos-logo">T</div>
+            <span class="os-title">TanOS</span>
+        </div>
+
+        <div class="top-right">
+            <span class="system-status">
+                <span class="status-dot"></span>
+                Online
+            </span>
+
+            <span id="timeElement">Loading...</span>
+        </div>
+
+    </header>
+
+
+    <!-- Desktop Content -->
+
+    <main class="desktop-area">
+
+        <!-- Desktop Icons -->
+
+<div class="desktop-icons">
+
+    
+
+    <button class="desktop-icon" onclick="openWindow('aboutWindow')">
+        <div class="app-icon">T</div>
+        <span>About TanOS</span>
+    </button>
+
+    <button class="desktop-icon" onclick="openWindow('notesWindow')">
+
+        <div class="app-icon notes-icon">
+        📝
+        </div>
+
+        <span>Notes</span>
+
+    </button>
+
+</div>
+
+
+<!-- Welcome Window -->
+
+<div class="os-window" id="aboutWindow">
+
+    <div class="window-header">
+
+        <div class="window-title">
+            <span class="window-icon">T</span>
+            <span>About TanOS</span>
+        </div>
+
+        <button
+            class="close-button"
+            onclick="closeWindow('aboutWindow')"
+        >
+            ×
+        </button>
+
+    </div>
+
+    <div class="window-content">
+
+        <h2>Welcome to TanOS</h2>
+
+        <p>
+            TanOS is a personal web operating system
+            built inside the browser.
+        </p>
+
+        <div class="window-info">
+            <strong>Version</strong>
+            <span>1.0</span>
+        </div>
+
+        <div class="window-info">
+            <strong>Creator</strong>
+            <span>Tanmay</span>
+        </div>
+
+        <div class="window-info">
+            <strong>Status</strong>
+            <span>Running</span>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Notes Application -->
+
+<div class="os-window notes-window" id="notesWindow">
+
+    <div class="window-header">
+
+        <div class="window-title">
+
+            <span class="window-icon">
+                📝
+            </span>
+
+            <span>Notes</span>
+
+        </div>
+
+        <button
+            class="close-button"
+            onclick="closeWindow('notesWindow')"
+        >
+            ×
+        </button>
+
+    </div>
+
+
+    <div class="notes-content">
+
+        <div class="notes-toolbar">
+
+            <div>
+                <strong>My Notes</strong>
+
+                <span id="saveStatus">
+                    Not saved
+                </span>
+            </div>
+
+            <button
+                class="save-button"
+                onclick="saveNote()"
+            >
+                Save
+            </button>
+
+        </div>
+
+
+        <textarea
+            id="notesArea"
+            placeholder="Start writing something..."
+        ></textarea>
+
+
+        <div class="notes-footer">
+
+            <span id="characterCount">
+                0 characters
+            </span>
+
+            <button
+                class="clear-button"
+                onclick="clearNote()"
+            >
+                Clear
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+    </main>
+
+</div>
+
+    <script>
+        function enterOS() {
+
+    const welcomeScreen =
+        document.querySelector(".welcome-screen");
+
+    const desktop =
+        document.querySelector(".desktop");
+
+    welcomeScreen.style.display = "none";
+
+    desktop.style.display = "block";
+
+}
+
+        function updateTime() {
+
+    const now = new Date();
+
+    const time = now.toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit"
+    });
+
+    document.querySelector("#timeElement").textContent = time;
+}
+
+updateTime();
+
+setInterval(updateTime, 1000);
+    
+    /* =========================
+   WINDOW SYSTEM
+   ========================= */
+
+let highestZIndex = 10;
+
+
+/* Open window */
+
+function openWindow(windowId) {
+
+    const windowElement =
+        document.getElementById(windowId);
+
+    if (!windowElement) return;
+
+    windowElement.style.display = "block";
+
+    bringToFront(windowElement);
+
+}
+
+
+/* Close window */
+
+function closeWindow(windowId) {
+
+    const windowElement =
+        document.getElementById(windowId);
+
+    if (!windowElement) return;
+
+    windowElement.style.display = "none";
+
+}
+
+
+/* Bring window to front */
+
+function bringToFront(windowElement) {
+
+    highestZIndex++;
+
+    windowElement.style.zIndex = highestZIndex;
+
+}
+
+/* =========================
+   DRAGGABLE WINDOWS
+   ========================= */
+
+document.querySelectorAll(".os-window").forEach(windowElement => {
+
+    const header =
+        windowElement.querySelector(".window-header");
+
+
+    header.addEventListener("mousedown", function(event) {
+
+        if (event.target.closest(".close-button")) {
+            return;
+        }
+
+
+        bringToFront(windowElement);
+
+
+        const windowRect =
+            windowElement.getBoundingClientRect();
+
+
+        const offsetX =
+            event.clientX - windowRect.left;
+
+        const offsetY =
+            event.clientY - windowRect.top;
+
+
+        function moveWindow(event) {
+
+            let newX =
+                event.clientX - offsetX;
+
+            let newY =
+                event.clientY - offsetY;
+
+
+            /* Keep window inside screen */
+
+            const maxX =
+                window.innerWidth -
+                windowElement.offsetWidth;
+
+            const maxY =
+                window.innerHeight -
+                windowElement.offsetHeight;
+
+
+            newX =
+                Math.max(0, Math.min(newX, maxX));
+
+            newY =
+                Math.max(58, Math.min(newY, maxY));
+
+
+            windowElement.style.left =
+                newX + "px";
+
+            windowElement.style.top =
+                newY + "px";
+
+            windowElement.style.transform =
+                "none";
+
+        }
+
+
+        function stopDragging() {
+
+            document.removeEventListener(
+                "mousemove",
+                moveWindow
+            );
+
+            document.removeEventListener(
+                "mouseup",
+                stopDragging
+            );
+
+        }
+
+
+        document.addEventListener(
+            "mousemove",
+            moveWindow
+        );
+
+        document.addEventListener(
+            "mouseup",
+            stopDragging
+        );
+
+    });
+
+
+    /* Click anywhere on window = bring forward */
+
+    windowElement.addEventListener("mousedown", function() {
+
+        bringToFront(windowElement);
+
+    });
+
+});
+
+/* =========================
+   TANOS NOTES APP
+   ========================= */
+
+const notesArea =
+    document.getElementById("notesArea");
+
+const saveStatus =
+    document.getElementById("saveStatus");
+
+const characterCount =
+    document.getElementById("characterCount");
+
+
+/* Load saved note */
+
+function loadNote() {
+
+    const savedNote =
+        localStorage.getItem("tanosNote");
+
+    if (savedNote !== null) {
+
+        notesArea.value = savedNote;
+
+        saveStatus.textContent =
+            "Saved";
+
+    }
+
+    updateCharacterCount();
+}
+
+
+/* Save note */
+
+function saveNote() {
+
+    localStorage.setItem(
+        "tanosNote",
+        notesArea.value
+    );
+
+    saveStatus.textContent =
+        "Saved just now";
+
+}
+
+
+/* Clear note */
+
+function clearNote() {
+
+    const confirmed =
+        confirm("Clear your note?");
+
+    if (!confirmed) return;
+
+    notesArea.value = "";
+
+    localStorage.removeItem(
+        "tanosNote"
+    );
+
+    saveStatus.textContent =
+        "Not saved";
+
+    updateCharacterCount();
+
+}
+
+
+/* Character counter */
+
+function updateCharacterCount() {
+
+    characterCount.textContent =
+        `${notesArea.value.length} characters`;
+
+}
+
+
+notesArea.addEventListener(
+    "input",
+    function() {
+
+        saveStatus.textContent =
+            "Unsaved";
+
+        updateCharacterCount();
+
+    }
+);
+
+
+/* Load when page starts */
+
+loadNote();
+
+</script>
+
+</body>
+</html>

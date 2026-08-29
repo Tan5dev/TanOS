@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c841381-690d-4159-8c64-3c6c33b2fea7" name="Changes" comment="Fixed search menu and updated README">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Screenshot 2026-07-13 154501.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Screenshot_dark_mode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Screenshot_light_mode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Screenshot_loading_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/Xuan/Documents/Programming/Html/WebOS" value="3F02ON8ZeFVa3GIttNUbY3yCJgz" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="102" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CharlieTheCatMeow&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CharlieTheCatMeow/WebOS.git&quot;,
+    &quot;accountId&quot;: &quot;b966289b-dc42-4579-ac57-cc2af3c2d139&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/notes.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0001805012813847" />
+      <entry key="S2" value="1.2657456616359137" />
+      <entry key="S5" value="3.2220677927412735" />
+      <entry key="S10" value="6.5983554364644155" />
+      <entry key="S30" value="15.527475988702035" />
+      <entry key="S60" value="22.927140870435707" />
+      <entry key="M2" value="31.650109267682268" />
+      <entry key="M5" value="48.3332973564646" />
+      <entry key="M10" value="69.64509892688784" />
+      <entry key="M15" value="90.55271679278718" />
+      <entry key="M30" value="155.0165561535331" />
+      <entry key="H1" value="291.3677811911405" />
+      <entry key="H2" value="646.0586639417531" />
+      <entry key="H4" value="1585.3653804261328" />
+      <entry key="D1" value="7830.363788714392" />
+      <entry key="W1" value="11932.703383134676" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.161220872218263E-188" />
+      <entry key="S5" value="9.998663123189701E-76" />
+      <entry key="S10" value="3.1620662743196465E-38" />
+      <entry key="S30" value="3.1622071966492285E-13" />
+      <entry key="S60" value="5.623354827760864E-7" />
+      <entry key="M2" value="7.515619164083609E-4" />
+      <entry key="M5" value="0.07608959174078486" />
+      <entry key="M10" value="0.7492147766205496" />
+      <entry key="M15" value="1.9801284610051464" />
+      <entry key="M30" value="6.3677596550389906" />
+      <entry key="H1" value="16.733971007271098" />
+      <entry key="H2" value="54.4530818725697" />
+      <entry key="H4" value="215.06751435978413" />
+      <entry key="D1" value="1732.5007738133106" />
+      <entry key="W1" value="2793.2009634263477" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9265880618903709" />
+      <entry key="MS500" value="0.9849383740018123" />
+      <entry key="S2" value="1.1762989425192019" />
+      <entry key="S5" value="3.0103544004042897" />
+      <entry key="S10" value="6.399812098118716" />
+      <entry key="S30" value="15.423748062257507" />
+      <entry key="S60" value="22.866297390035893" />
+      <entry key="M2" value="31.61538243990061" />
+      <entry key="M5" value="48.39006373658815" />
+      <entry key="M10" value="70.37904345830471" />
+      <entry key="M15" value="92.51754087939685" />
+      <entry key="M30" value="161.36678247135256" />
+      <entry key="H1" value="308.0788770726723" />
+      <entry key="H2" value="700.4818906003183" />
+      <entry key="H4" value="1800.3939252407765" />
+      <entry key="D1" value="9562.826823351337" />
+      <entry key="W1" value="14725.89584515269" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3F02ON8ZeFVa3GIttNUbY3yCJgz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="BACKGROUND" />
+        <option name="worktreeMode" value="WORKSPACE" />
+      </template>
+    </option>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Xuan/Documents/Programming/Html/WebOS&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Xuan\Documents\Programming\Python Projects\WebOS\Images" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.27258.51" />
+        <option value="bundled-python-sdk-84eaadda3698-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.27258.51" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c841381-690d-4159-8c64-3c6c33b2fea7" name="Changes" comment="" />
+      <created>1781197632522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781197632522</updated>
+      <workItem from="1781704417458" duration="156000" />
+      <workItem from="1781704593998" duration="39000" />
+      <workItem from="1781707575502" duration="825000" />
+      <workItem from="1781708592360" duration="952000" />
+      <workItem from="1781947950088" duration="3952000" />
+      <workItem from="1781961107727" duration="2897000" />
+      <workItem from="1782034704599" duration="3483000" />
+      <workItem from="1782052861811" duration="48000" />
+      <workItem from="1782129772434" duration="1437000" />
+      <workItem from="1782134752441" duration="859000" />
+      <workItem from="1782137225517" duration="904000" />
+      <workItem from="1782226622225" duration="2474000" />
+      <workItem from="1782302005411" duration="655000" />
+      <workItem from="1782472838947" duration="2806000" />
+      <workItem from="1782477924764" duration="1479000" />
+      <workItem from="1782629488675" duration="2345000" />
+      <workItem from="1782741352548" duration="1658000" />
+      <workItem from="1782828647758" duration="1382000" />
+      <workItem from="1782896627885" duration="1714000" />
+      <workItem from="1782990068240" duration="1656000" />
+      <workItem from="1782991937751" duration="2105000" />
+      <workItem from="1782996865243" duration="2402000" />
+      <workItem from="1783000348212" duration="127000" />
+      <workItem from="1783017906114" duration="1676000" />
+      <workItem from="1783076289964" duration="1097000" />
+      <workItem from="1783077605691" duration="823000" />
+      <workItem from="1783079618350" duration="2335000" />
+      <workItem from="1783093788023" duration="29000" />
+      <workItem from="1783156229819" duration="2250000" />
+      <workItem from="1783184276954" duration="56000" />
+      <workItem from="1783242375118" duration="584000" />
+      <workItem from="1783330479160" duration="519000" />
+      <workItem from="1783421403073" duration="4150000" />
+      <workItem from="1783425606385" duration="752000" />
+      <workItem from="1783444367829" duration="5623000" />
+      <workItem from="1783502009342" duration="6688000" />
+      <workItem from="1783508787124" duration="397000" />
+      <workItem from="1783518784526" duration="1000" />
+      <workItem from="1783518879669" duration="137000" />
+      <workItem from="1783519036669" duration="6556000" />
+      <workItem from="1783529857749" duration="1133000" />
+      <workItem from="1783531213425" duration="1785000" />
+      <workItem from="1783533021281" duration="773000" />
+      <workItem from="1783533826672" duration="304000" />
+      <workItem from="1783534149765" duration="79000" />
+      <workItem from="1783586868782" duration="6008000" />
+      <workItem from="1783592957649" duration="890000" />
+      <workItem from="1783612718924" duration="894000" />
+      <workItem from="1783621474625" duration="5609000" />
+      <workItem from="1783674001418" duration="5620000" />
+      <workItem from="1783679695756" duration="207000" />
+      <workItem from="1783680205220" duration="1737000" />
+      <workItem from="1783682068920" duration="304000" />
+      <workItem from="1783686033307" duration="1930000" />
+      <workItem from="1783699010144" duration="738000" />
+      <workItem from="1783701162210" duration="1116000" />
+      <workItem from="1783702863781" duration="7194000" />
+      <workItem from="1783762080794" duration="4580000" />
+      <workItem from="1783768647898" duration="12950000" />
+      <workItem from="1783782345749" duration="721000" />
+      <workItem from="1783783273344" duration="44000" />
+      <workItem from="1783783430421" duration="714000" />
+      <workItem from="1783784271272" duration="63000" />
+      <workItem from="1783790409164" duration="4480000" />
+      <workItem from="1783844742242" duration="14275000" />
+      <workItem from="1783859456121" duration="225000" />
+      <workItem from="1783861553812" duration="11763000" />
+      <workItem from="1783874127211" duration="532000" />
+      <workItem from="1783874708601" duration="782000" />
+      <workItem from="1783879988293" duration="5274000" />
+      <workItem from="1783885677337" duration="1042000" />
+      <workItem from="1783886781085" duration="345000" />
+      <workItem from="1783887231156" duration="259000" />
+      <workItem from="1783931737944" duration="5447000" />
+      <workItem from="1783938973074" duration="6575000" />
+      <workItem from="1783946283110" duration="1840000" />
+      <workItem from="1783949622349" duration="2558000" />
+      <workItem from="1783953213345" duration="1193000" />
+      <workItem from="1783954825525" duration="334000" />
+      <workItem from="1783955629167" duration="1519000" />
+      <workItem from="1784021838693" duration="54000" />
+      <workItem from="1784025885143" duration="6000" />
+      <workItem from="1784025925528" duration="20000" />
+      <workItem from="1786267514387" duration="165000" />
+      <workItem from="1786267892020" duration="702000" />
+      <workItem from="1786982058404" duration="322000" />
+      <workItem from="1787053804299" duration="1730000" />
+      <workItem from="1787150267274" duration="121000" />
+      <workItem from="1787232739436" duration="349000" />
+      <workItem from="1787241503632" duration="170000" />
+      <workItem from="1787322118654" duration="69000" />
+      <workItem from="1787387100913" duration="1836000" />
+      <workItem from="1787389569992" duration="826000" />
+      <workItem from="1787392325002" duration="775000" />
+      <workItem from="1787393132574" duration="316000" />
+      <workItem from="1787412351525" duration="812000" />
+      <workItem from="1787420587876" duration="4000" />
+      <workItem from="1787469895115" duration="969000" />
+      <workItem from="1787476939104" duration="3854000" />
+      <workItem from="1787480928856" duration="112000" />
+      <workItem from="1787485600246" duration="11208000" />
+      <workItem from="1787497151665" duration="727000" />
+      <workItem from="1787498278970" duration="233000" />
+      <workItem from="1787506627213" duration="638000" />
+      <workItem from="1787578904134" duration="711000" />
+      <workItem from="1787588868010" duration="666000" />
+      <workItem from="1787589592507" duration="795000" />
+      <workItem from="1787654552469" duration="2048000" />
+      <workItem from="1787664966683" duration="26000" />
+      <workItem from="1787677089859" duration="1175000" />
+      <workItem from="1787678673955" duration="88000" />
+      <workItem from="1787753198793" duration="998000" />
+      <workItem from="1787759627080" duration="424000" />
+      <workItem from="1788001535124" duration="671000" />
+      <workItem from="1788002842614" duration="96000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added browser url bar, fixed notes">
+      <option name="closed" value="true" />
+      <created>1787480568275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1787480568275</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed stopwatch reset button issue">
+      <option name="closed" value="true" />
+      <created>1787480799272</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1787480799272</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added click sound">
+      <option name="closed" value="true" />
+      <created>1787488200035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1787488200035</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add typing sound">
+      <option name="closed" value="true" />
+      <created>1787489027758</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1787489027758</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added sound effect toggles in settings">
+      <option name="closed" value="true" />
+      <created>1787489918246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1787489918246</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactored theme, added a few">
+      <option name="closed" value="true" />
+      <created>1787495731628</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1787495731628</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added no_select to notes add and remove buttons">
+      <option name="closed" value="true" />
+      <created>1787495991640</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1787495991640</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add images and stuff (forgot)">
+      <option name="closed" value="true" />
+      <created>1787496069389</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1787496069389</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fixed notes page 1 not auto deleting placeholder">
+      <option name="closed" value="true" />
+      <created>1787497001704</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1787497001704</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Different window background tint levels for themes">
+      <option name="closed" value="true" />
+      <created>1787497874112</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1787497874112</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fix music player scaling">
+      <option name="closed" value="true" />
+      <created>1787498506831</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1787498506831</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add themes to terminal as commands">
+      <option name="closed" value="true" />
+      <created>1787579602663</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1787579602663</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add pink theme">
+      <option name="closed" value="true" />
+      <created>1787589402881</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1787589402881</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Forgot new bg image">
+      <option name="closed" value="true" />
+      <created>1787589522715</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1787589522715</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Retry push">
+      <option name="closed" value="true" />
+      <created>1787589776636</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1787589776636</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Settings option to hide taskbar when maximized">
+      <option name="closed" value="true" />
+      <created>1787656681890</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1787656681890</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Better terminal app commands">
+      <option name="closed" value="true" />
+      <created>1787656923186</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1787656923186</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changed gallery min width, default sound effects on">
+      <option name="closed" value="true" />
+      <created>1787678043324</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1787678043324</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fixed search menu and updated README">
+      <option name="closed" value="true" />
+      <created>1788002197662</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1788002197662</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added browser url bar, fixed notes" />
+    <MESSAGE value="fixed stopwatch reset button issue" />
+    <MESSAGE value="added click sound" />
+    <MESSAGE value="Add typing sound" />
+    <MESSAGE value="Added sound effect toggles in settings" />
+    <MESSAGE value="Refactored theme, added a few" />
+    <MESSAGE value="Added no_select to notes add and remove buttons" />
+    <MESSAGE value="Add images and stuff (forgot)" />
+    <MESSAGE value="Fixed notes page 1 not auto deleting placeholder" />
+    <MESSAGE value="Different window background tint levels for themes" />
+    <MESSAGE value="Fix music player scaling" />
+    <MESSAGE value="Add themes to terminal as commands" />
+    <MESSAGE value="Add pink theme" />
+    <MESSAGE value="Forgot new bg image" />
+    <MESSAGE value="Retry push" />
+    <MESSAGE value="Settings option to hide taskbar when maximized" />
+    <MESSAGE value="Better terminal app commands" />
+    <MESSAGE value="Changed gallery min width, default sound effects on" />
+    <MESSAGE value="Fixed search menu and updated README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed search menu and updated README" />
+  </component>
+</project>
