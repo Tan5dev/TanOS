@@ -8,21 +8,21 @@ const welcome_content = [
         content: `
             <div class="welcome_window_page">
                 <div class="welcome_window_page_header">
-                    <h1 class="welcome_window_title">Welcome to MeowOS!</h1>
+                    <h1 class="welcome_window_title">Welcome to TanOS!</h1>
                 </div>
                 <div class="welcome_window_content">
                     <div class="welcome_window_profile">
                         <div class="welcome_window_profile_info">
-                            <img src="Images/CharlieCatMeowPFPSquare.png" alt="Profile Picture" class="welcome_window_profile_picture">
-                            <h2 class="welcome_window_profile_name">CharlieCatMeow</h2>
+                            <img src="Images/LOGO.svg" alt="Profile Picture" class="welcome_window_profile_picture">
+                            <h2 class="welcome_window_profile_name">Tanmay Pathe</h2>
                         </div>
                         <div class="welcome_window_profile_connections">
-                            <a href="https://www.github.com/CharlieTheCatMeow" target="_blank" class="welcome_window_profile_connection_link">
+                            <a href="https://www.github.com/Tan5dev" target="_blank" class="welcome_window_profile_connection_link">
                                 <div class="welcome_window_profile_connection">
                                     <img src="Images/github_logo.svg" alt="Github Logo" class="welcome_window_profile_connection_logo">
                                 </div>
                             </a>
-                            <a href="https://hackclub.enterprise.slack.com/team/U0B9S51GFK3" target="_blank" class="welcome_window_profile_connection_link">
+                            <a href="##" target="_blank" class="welcome_window_profile_connection_link">
                                 <div class="welcome_window_profile_connection">
                                     <img src="Images/slack_logo.svg" alt="Slack Logo" class="welcome_window_profile_connection_logo">
                                 </div>
@@ -31,7 +31,9 @@ const welcome_content = [
                         </div>
                     </div>
                     <h2>A bit about me:</h2>
-                    <p>I am a student at a school (shocker :O) <br> I sometimes code for fun and try new things out. <br> I decided to make a website this time :3 <br> Enjoy!</p>
+                    <p>Hey, I’m Tanmay! 👋
+A curious developer who loves building things, learning new tech, and turning random ideas into real projects. 🚀
+Still learning. Still building. Always curious. 💜</p>
                 </div>
             </div>
         `

@@ -12,7 +12,7 @@ new ResizeObserver(scrollTerminalToBottom).observe(terminalWindow);
 function terminalOpenClose() {
     if (terminalWindow.style.display === "flex") {
         terminalContent.innerHTML = `
-                <p>MeowOS Terminal [Version 1.0.0]</p>
+                <p>TanOS Terminal [Version 1.0.0]</p>
                 <p>Initializing shell environment...</p>
         `;
         scrollTerminalToBottom();

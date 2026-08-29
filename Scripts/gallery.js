@@ -2,29 +2,49 @@ const galleryContentElement = document.querySelector("#galleryContent");
 
 const galleryImages = [
     {
-        src: "Images/Nature.png",
-        alt: "Nature",
-        caption: "Nature"
+        src: "Images/Nature_Day.png",
+        alt: "Nature_Day",
+        caption: "Nature_Day"
     },
     {
-        src: "Images/Bloody_Stream.jpg",
-        alt: "Bloody Stream",
-        caption: "Bloody Stream"
+        src: "Images/Nature_Night.png",
+        alt: "Nature_Night",
+        caption: "Nature_Night"
     },
     {
-        src: "Images/Hungarian_Dance.jpg",
-        alt: "Hungarian Dance",
-        caption: "Hungarian Dance"
+        src: "Images/Nature_Pink.png",
+        alt: "Nature_Pink",
+        caption: "Nature_Pink"
     },
     {
-        src: "Images/Canzoni_Preferite.jpg",
-        alt: "Canzoni Preferite",
-        caption: "Canzoni Preferite"
+        src: "Images/Nature_Purple.png",
+        alt: "Nature_Purple",
+        caption: "Nature_Purple"
     },
     {
-        src: "Images/CharlieCatMeowPFPSquare.png",
-        alt: "CharlieCatMeow",
-        caption: "CharlieCatMeow"
+        src: "Images/Nature_Sunset.png",
+        alt: "Nature_Sunset",
+        caption: "Nature_Sunset"
+    },
+    {
+        src: "Images/Phonk Song.jpg",
+        alt: "Phonk Song",
+        caption: "Phonk Song"
+    },
+    {
+        src: "Images/Water.png",
+        alt: "Water",
+        caption: "Water"
+    },
+    {
+        src: "Images/Upbeat.png",
+        alt: "Upbeat",
+        caption: "Upbeat"
+    },
+    {
+        src: "Images/Music_Night.png",
+        alt: "Music Night",
+        caption: "Music Night"
     }
 ];
 

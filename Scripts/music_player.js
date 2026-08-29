@@ -7,9 +7,10 @@ const musicPlayerNextButton = document.querySelector("#musicPlayerNextButton");
 const musicPlayerPlaylist = document.querySelector("#musicPlayerPlaylist");
 
 const playlist = [
-    {title: "Bloody Stream", audioSrc: "Audio/Bloody_Stream.mp3", imgSrc: "Images/Bloody_Stream.jpg"},
-    {title: "Canzoni Preferite", audioSrc: "Audio/Canzoni_Preferite.mp3", imgSrc: "Images/Canzoni_Preferite.jpg"},
-    {title: "Hungarian Dance no.5", audioSrc: "Audio/Hungarian_Dance.mp3", imgSrc: "Images/Hungarian_Dance.jpg"}
+    {title: "Phonk SONG", audioSrc: "Audio/Phonk Song.mp3", imgSrc: "Images/Phonk Song.jpg"},
+    {title: "Upbeat", audioSrc: "Audio/Upbeat.mp3", imgSrc: "Images/Upbeat.png"},
+    {title: "Music Night", audioSrc: "Audio/Music_Night.mp3", imgSrc: "Images/Music_Night.png"},
+    {title: "Water", audioSrc: "Audio/Water.mp3", imgSrc: "Images/Water.png"}
 ]
 
 let currentSongIndex = null;
