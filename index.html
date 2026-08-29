@@ -118,8 +118,34 @@
 
     <script>
         function enterOS() {
-            alert("TanOS is starting... 🚀");
-        }
+
+    const welcomeScreen =
+        document.querySelector(".welcome-screen");
+
+    const desktop =
+        document.querySelector(".desktop");
+
+    welcomeScreen.style.display = "none";
+
+    desktop.style.display = "block";
+
+}
+
+        function updateTime() {
+
+    const now = new Date();
+
+    const time = now.toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit"
+    });
+
+    document.querySelector("#timeElement").textContent = time;
+}
+
+updateTime();
+
+setInterval(updateTime, 1000);
     </script>
 
 </body>

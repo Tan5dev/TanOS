@@ -321,3 +321,322 @@ h1 span {
         opacity: 0.75;
     }
 }
+
+/* =========================
+   TANOS DESKTOP
+   PART 2
+   ========================= */
+
+.desktop {
+    display: none;
+
+    position: fixed;
+    inset: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            circle at 20% 20%,
+            rgba(108, 92, 231, 0.20),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at 80% 80%,
+            rgba(0, 206, 201, 0.12),
+            transparent 35%
+        ),
+        #070912;
+}
+
+
+/* =========================
+   TOP BAR
+   ========================= */
+
+.top-bar {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 22px;
+
+    background: rgba(8, 9, 18, 0.72);
+
+    backdrop-filter: blur(18px);
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+    z-index: 100;
+}
+
+
+/* Left side */
+
+.top-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tanos-logo {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9px;
+
+    background: white;
+    color: #08090d;
+
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.os-title {
+    color: white;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+}
+
+
+/* Right side */
+
+.top-right {
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+
+    color: #a5a8b7;
+
+    font-size: 12px;
+}
+
+
+/* Online status */
+
+.system-status {
+    display: flex;
+    align-items: center;
+
+    gap: 7px;
+
+    color: #a5a8b7;
+}
+
+.status-dot {
+    width: 7px;
+    height: 7px;
+
+    border-radius: 50%;
+
+    background: #61e6c1;
+
+    box-shadow:
+        0 0 8px rgba(97, 230, 193, 0.7);
+}
+
+
+/* =========================
+   DESKTOP AREA
+   ========================= */
+
+.desktop-area {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 58px;
+}
+
+
+/* =========================
+   WELCOME WINDOW
+   ========================= */
+
+.desktop-welcome {
+    width: 460px;
+    max-width: calc(100% - 40px);
+
+    padding: 40px;
+
+    text-align: center;
+
+    background: rgba(20, 21, 31, 0.78);
+
+    border: 1px solid rgba(255, 255, 255, 0.09);
+
+    border-radius: 22px;
+
+    backdrop-filter: blur(20px);
+
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.45);
+}
+
+
+/* Window icon */
+
+.welcome-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 22px;
+
+    border-radius: 16px;
+
+    background: rgba(108, 92, 231, 0.16);
+
+    border: 1px solid rgba(108, 92, 231, 0.25);
+
+    color: #a89cff;
+
+    font-size: 25px;
+}
+
+
+/* Text */
+
+.desktop-welcome h1 {
+    color: white;
+
+    font-size: 25px;
+
+    margin-bottom: 10px;
+}
+
+.desktop-welcome p {
+    color: #858999;
+
+    font-size: 14px;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 600px) {
+
+    .top-bar {
+        padding: 0 15px;
+    }
+
+    .top-right {
+        gap: 10px;
+    }
+
+    .system-status {
+        display: none;
+    }
+
+    .desktop-welcome {
+        padding: 30px;
+    }
+
+}
+
+/* =========================
+   PART 2 - DESKTOP FIX
+   ========================= */
+
+.desktop-welcome {
+    width: 560px;
+    max-width: calc(100% - 60px);
+
+    padding: 50px;
+
+    text-align: center;
+
+    background: rgba(20, 21, 31, 0.78);
+
+    border: 1px solid rgba(255, 255, 255, 0.09);
+
+    border-radius: 24px;
+
+    backdrop-filter: blur(20px);
+
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.45);
+}
+
+
+/* Fix the Part 1 h1 styles affecting Part 2 */
+
+.desktop-welcome h1 {
+    margin: 0 0 12px 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 28px;
+    line-height: 1.25;
+    letter-spacing: -0.5px;
+
+    font-weight: 700;
+
+    color: white;
+
+    white-space: normal;
+}
+
+
+/* Subtitle */
+
+.desktop-welcome p {
+    margin: 0;
+
+    color: #858999;
+
+    font-size: 14px;
+    line-height: 1.6;
+
+    letter-spacing: normal;
+}
+
+
+/* Icon */
+
+.desktop-welcome .welcome-icon {
+    margin-bottom: 25px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .desktop-welcome {
+        width: calc(100% - 30px);
+        padding: 35px 25px;
+    }
+
+    .desktop-welcome h1 {
+        font-size: 23px;
+        letter-spacing: -0.3px;
+    }
+}
