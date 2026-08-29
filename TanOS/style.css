@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #08090d;
+    color: white;
+}
+
+.welcome-screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background glow */
+
+.welcome-screen::before {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: #6c5ce7;
+    opacity: 0.12;
+    filter: blur(120px);
+    border-radius: 50%;
+    top: -150px;
+    left: -100px;
+}
+
+.welcome-screen::after {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background: #00cec9;
+    opacity: 0.08;
+    filter: blur(120px);
+    border-radius: 50%;
+    bottom: -150px;
+    right: -100px;
+}
+
+/* Top status */
+
+.status {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    right: 30px;
+
+    display: flex;
+    justify-content: space-between;
+
+    color: #777b8c;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+/* Main card */
+
+.welcome-card {
+    width: min(520px, 100%);
+    padding: 45px;
+
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 28px;
+
+    backdrop-filter: blur(20px);
+
+    box-shadow:
+        0 30px 80px rgba(0, 0, 0, 0.5);
+
+    position: relative;
+    z-index: 2;
+}
+
+/* Logo */
+
+.logo {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 16px;
+
+    background: white;
+    color: #08090d;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    margin-bottom: 30px;
+}
+
+.small-text {
+    color: #858999;
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-bottom: 8px;
+}
+
+h1 {
+    font-size: clamp(55px, 10vw, 85px);
+    line-height: 0.95;
+    letter-spacing: -5px;
+}
+
+h1 span {
+    color: #6c5ce7;
+}
+
+.description {
+    color: #a4a7b5;
+    line-height: 1.7;
+    margin-top: 25px;
+    max-width: 420px;
+}
+
+/* Profile */
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    margin-top: 30px;
+    padding: 15px;
+
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 16px;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #6c5ce7;
+    font-weight: bold;
+}
+
+.profile strong {
+    font-size: 15px;
+}
+
+.profile p {
+    color: #777b8c;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+/* Links */
+
+.links {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #aaaebb;
+
+    padding: 8px 14px;
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+
+    font-size: 13px;
+
+    transition: 0.2s;
+}
+
+.links a:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* Enter button */
+
+.enter-button {
+    width: 100%;
+
+    margin-top: 30px;
+    padding: 15px 18px;
+
+    border: none;
+    border-radius: 14px;
+
+    background: white;
+    color: #08090d;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: 0.2s;
+}
+
+.enter-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.15);
+}
+
+.enter-button span {
+    font-size: 20px;
+}
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+
+    color: #555968;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .welcome-card {
+        padding: 30px;
+    }
+
+    .status {
+        font-size: 9px;
+        left: 20px;
+        right: 20px;
+    }
+
+    .links {
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        letter-spacing: -3px;
+    }
+}
